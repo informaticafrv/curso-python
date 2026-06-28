@@ -64,3 +64,22 @@ for fila in tabla:
 lista = [1,2,3]
 lista.append(4)
 print(lista)
+
+#eliminar elementos de los arrays
+lista.pop()
+
+#para eliminar un índice concreto
+lista.pop(2)
+
+#para eliminar un valor concreto
+lista.remove(3)
+
+#para darle la vuelta al array
+lista.reverse()
+
+#para contar cuantos valores hay en un array se usa count
+lista.count(1)
+
+#y para ver ver los indices
+lista.index(0)
+
