@@ -83,3 +83,6 @@ lista.count(1)
 #y para ver ver los indices
 lista.index(0)
 
+#las tuplas son arrays, pero que no se pueden modificar
+tupla = (1,'a',True)
+
