@@ -19,3 +19,20 @@ if 'primero' in nombres:
 #y también podemos copiar un diccionario en otro con la función copy
 copia = diccionario.copy()
 
+#con la función update se pueden añadir elementos o incluso otro diccionario entero
+diccionario.update(copia)
+
+#para acceder a los valores lo mejor es usar el método get
+diccionario.get('primero')
+
+#para recorrer las claves
+for clave in diccionario.keys():
+    print(clave)
+
+#para recorrer los valores
+for valor in diccionario.value():
+    print(valor)
+
+#para recorrer los dos
+for clave,valor in diccionario.items():
+    print(clave,' = ',valor)
